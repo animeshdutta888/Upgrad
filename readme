@@ -1,5 +1,5 @@
 
-Whatever I did in this kernel:
+Steps:
 1)Dropped all rows with missing/unknown values in it.
 2)Found co-relation between columns and dropped highly co-related values.
 3)Dropped the column 'Duration'.
