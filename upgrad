@@ -1,1 +1,11 @@
 
+Whatever I did in this kernel:
+1)Dropped all rows with missing/unknown values in it.
+2)Found co-relation between columns and dropped highly co-related values.
+3)Dropped the column 'Duration'.
+4)One-hot-encode categorical values to feed later into Random Forest.
+5)Found Feature Importance using Random Forest.
+6)Used Linear Discriminant Analysis,a method used in statistics, pattern recognition and machine learning to find a linear combination of features that characterizes or separates two or more classes of objects or events. The resulting combination may be used as a linear classifier, or, more commonly, for dimensionality reduction before later classification.
+7) Applied Random Forest and predicted whether a customer will subscribe or not.
+8)The tree interpreter shows the major factors influencing a class '0' or '1'.
+9)The F1 score is shown in the code file. The one with the model can just input the details and check if a phone call will help get a subscription or not according to what the model predicts.
